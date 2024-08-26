@@ -366,6 +366,7 @@ Partial Class frmAddStaff
         Me.Guna2ComboBox1.FormattingEnabled = True
         Me.Guna2ComboBox1.HoverState.Parent = Me.Guna2ComboBox1
         Me.Guna2ComboBox1.ItemHeight = 30
+        Me.Guna2ComboBox1.Items.AddRange(New Object() {"Male", "Female"})
         Me.Guna2ComboBox1.ItemsAppearance.Parent = Me.Guna2ComboBox1
         Me.Guna2ComboBox1.Location = New System.Drawing.Point(262, 345)
         Me.Guna2ComboBox1.Name = "Guna2ComboBox1"
@@ -403,6 +404,7 @@ Partial Class frmAddStaff
         Me.Guna2ComboBox2.FormattingEnabled = True
         Me.Guna2ComboBox2.HoverState.Parent = Me.Guna2ComboBox2
         Me.Guna2ComboBox2.ItemHeight = 30
+        Me.Guna2ComboBox2.Items.AddRange(New Object() {"Nurse", "Doctor", "Clerk", "Lab Assistants", "Janitors"})
         Me.Guna2ComboBox2.ItemsAppearance.Parent = Me.Guna2ComboBox2
         Me.Guna2ComboBox2.Location = New System.Drawing.Point(835, 259)
         Me.Guna2ComboBox2.Name = "Guna2ComboBox2"

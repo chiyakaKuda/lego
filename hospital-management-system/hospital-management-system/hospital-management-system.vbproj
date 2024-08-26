@@ -106,6 +106,12 @@
       <DependentUpon>frmStart.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmUpdateStaff.Designer.vb">
+      <DependentUpon>frmUpdateStaff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmUserLogin.Designer.vb">
       <DependentUpon>frmUserLogin.vb</DependentUpon>
     </Compile>
@@ -137,6 +143,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmStart.resx">
       <DependentUpon>frmStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateStaff.resx">
+      <DependentUpon>frmUpdateStaff.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUserLogin.resx">
       <DependentUpon>frmUserLogin.vb</DependentUpon>
