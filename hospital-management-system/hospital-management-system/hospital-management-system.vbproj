@@ -99,6 +99,12 @@
     <Compile Include="frmMainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmStaffManagement.Designer.vb">
+      <DependentUpon>frmStaffManagement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmStaffManagement.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmStart.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmMainMenu.resx">
       <DependentUpon>frmMainMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStaffManagement.resx">
+      <DependentUpon>frmStaffManagement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmStart.resx">
       <DependentUpon>frmStart.vb</DependentUpon>
