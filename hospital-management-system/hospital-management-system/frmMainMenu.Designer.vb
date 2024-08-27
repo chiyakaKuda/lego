@@ -27,7 +27,17 @@ Partial Class frmMainMenu
         Me.GunaControlBox3 = New Guna.UI.WinForms.GunaControlBox()
         Me.GunaControlBox2 = New Guna.UI.WinForms.GunaControlBox()
         Me.GunaControlBox1 = New Guna.UI.WinForms.GunaControlBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Me.Guna2GradientPanel2 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Me.Guna2GradientPanel3 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.FormSkin1.SuspendLayout()
+        Me.Guna2GradientPanel1.SuspendLayout()
+        Me.Guna2GradientPanel2.SuspendLayout()
+        Me.Guna2GradientPanel3.SuspendLayout()
         Me.SuspendLayout()
         '
         'FormSkin1
@@ -35,6 +45,10 @@ Partial Class frmMainMenu
         Me.FormSkin1.BackColor = System.Drawing.Color.White
         Me.FormSkin1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
         Me.FormSkin1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.FormSkin1.Controls.Add(Me.Guna2GradientPanel3)
+        Me.FormSkin1.Controls.Add(Me.Guna2GradientPanel2)
+        Me.FormSkin1.Controls.Add(Me.Guna2GradientPanel1)
+        Me.FormSkin1.Controls.Add(Me.Panel1)
         Me.FormSkin1.Controls.Add(Me.GunaControlBox3)
         Me.FormSkin1.Controls.Add(Me.GunaControlBox2)
         Me.FormSkin1.Controls.Add(Me.GunaControlBox1)
@@ -99,6 +113,86 @@ Partial Class frmMainMenu
         Me.GunaControlBox1.Size = New System.Drawing.Size(50, 54)
         Me.GunaControlBox1.TabIndex = 7
         '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.Panel1.Location = New System.Drawing.Point(0, 49)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(330, 808)
+        Me.Panel1.TabIndex = 11
+        '
+        'Guna2GradientPanel1
+        '
+        Me.Guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientPanel1.BorderRadius = 12
+        Me.Guna2GradientPanel1.Controls.Add(Me.Label1)
+        Me.Guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.Guna2GradientPanel1.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.Guna2GradientPanel1.Location = New System.Drawing.Point(356, 64)
+        Me.Guna2GradientPanel1.Name = "Guna2GradientPanel1"
+        Me.Guna2GradientPanel1.ShadowDecoration.Parent = Me.Guna2GradientPanel1
+        Me.Guna2GradientPanel1.Size = New System.Drawing.Size(374, 179)
+        Me.Guna2GradientPanel1.TabIndex = 12
+        '
+        'Guna2GradientPanel2
+        '
+        Me.Guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientPanel2.BorderRadius = 12
+        Me.Guna2GradientPanel2.Controls.Add(Me.Label2)
+        Me.Guna2GradientPanel2.FillColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.Guna2GradientPanel2.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.Guna2GradientPanel2.Location = New System.Drawing.Point(754, 64)
+        Me.Guna2GradientPanel2.Name = "Guna2GradientPanel2"
+        Me.Guna2GradientPanel2.ShadowDecoration.Parent = Me.Guna2GradientPanel2
+        Me.Guna2GradientPanel2.Size = New System.Drawing.Size(374, 179)
+        Me.Guna2GradientPanel2.TabIndex = 13
+        '
+        'Guna2GradientPanel3
+        '
+        Me.Guna2GradientPanel3.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2GradientPanel3.BorderRadius = 12
+        Me.Guna2GradientPanel3.Controls.Add(Me.Label3)
+        Me.Guna2GradientPanel3.FillColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.Guna2GradientPanel3.FillColor2 = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.Guna2GradientPanel3.Location = New System.Drawing.Point(1150, 64)
+        Me.Guna2GradientPanel3.Name = "Guna2GradientPanel3"
+        Me.Guna2GradientPanel3.ShadowDecoration.Parent = Me.Guna2GradientPanel3
+        Me.Guna2GradientPanel3.Size = New System.Drawing.Size(374, 179)
+        Me.Guna2GradientPanel3.TabIndex = 13
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(42, 52)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(107, 28)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = "Doctors "
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(25, 52)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(101, 28)
+        Me.Label2.TabIndex = 1
+        Me.Label2.Text = "Patients"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
+        Me.Label3.Location = New System.Drawing.Point(21, 41)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(142, 28)
+        Me.Label3.TabIndex = 2
+        Me.Label3.Text = "Active Satff"
+        '
         'frmMainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -112,6 +206,12 @@ Partial Class frmMainMenu
         Me.Text = "frmMainMenu"
         Me.TransparencyKey = System.Drawing.Color.Fuchsia
         Me.FormSkin1.ResumeLayout(False)
+        Me.Guna2GradientPanel1.ResumeLayout(False)
+        Me.Guna2GradientPanel1.PerformLayout()
+        Me.Guna2GradientPanel2.ResumeLayout(False)
+        Me.Guna2GradientPanel2.PerformLayout()
+        Me.Guna2GradientPanel3.ResumeLayout(False)
+        Me.Guna2GradientPanel3.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -120,4 +220,11 @@ Partial Class frmMainMenu
     Friend WithEvents GunaControlBox2 As Guna.UI.WinForms.GunaControlBox
     Friend WithEvents GunaControlBox1 As Guna.UI.WinForms.GunaControlBox
     Friend WithEvents GunaControlBox3 As Guna.UI.WinForms.GunaControlBox
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Guna2GradientPanel1 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents Guna2GradientPanel3 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Guna2GradientPanel2 As Guna.UI2.WinForms.Guna2GradientPanel
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
 End Class
