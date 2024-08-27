@@ -22,6 +22,7 @@ Partial Class frmStaffManagement
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmStaffManagement))
         Me.FormSkin1 = New FlatUI.FormSkin()
         Me.GunaControlBox3 = New Guna.UI.WinForms.GunaControlBox()
         Me.GunaControlBox2 = New Guna.UI.WinForms.GunaControlBox()
@@ -50,6 +51,7 @@ Partial Class frmStaffManagement
         Me.Label13 = New System.Windows.Forms.Label()
         Me.Label14 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.GunaButton1 = New Guna.UI.WinForms.GunaButton()
         Me.FormSkin1.SuspendLayout()
         Me.GunaElipsePanel1.SuspendLayout()
         Me.GunaElipsePanel2.SuspendLayout()
@@ -64,6 +66,7 @@ Partial Class frmStaffManagement
         Me.FormSkin1.BackColor = System.Drawing.Color.White
         Me.FormSkin1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
         Me.FormSkin1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.FormSkin1.Controls.Add(Me.GunaButton1)
         Me.FormSkin1.Controls.Add(Me.GunaElipsePanel6)
         Me.FormSkin1.Controls.Add(Me.GunaElipsePanel5)
         Me.FormSkin1.Controls.Add(Me.GunaElipsePanel4)
@@ -434,6 +437,32 @@ Partial Class frmStaffManagement
         Me.Label15.TabIndex = 2
         Me.Label15.Text = "DOCTORS: "
         '
+        'GunaButton1
+        '
+        Me.GunaButton1.AnimationHoverSpeed = 0.07!
+        Me.GunaButton1.AnimationSpeed = 0.03!
+        Me.GunaButton1.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.GunaButton1.BorderColor = System.Drawing.Color.Black
+        Me.GunaButton1.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton1.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaButton1.ForeColor = System.Drawing.Color.White
+        Me.GunaButton1.Image = Nothing
+        Me.GunaButton1.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton1.Location = New System.Drawing.Point(810, 733)
+        Me.GunaButton1.Name = "GunaButton1"
+        Me.GunaButton1.OnHoverBaseColor = System.Drawing.Color.Green
+        Me.GunaButton1.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaButton1.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaButton1.OnHoverImage = Nothing
+        Me.GunaButton1.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton1.Radius = 12
+        Me.GunaButton1.Size = New System.Drawing.Size(161, 65)
+        Me.GunaButton1.TabIndex = 21
+        Me.GunaButton1.Text = "Print Report"
+        Me.GunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'frmStaffManagement
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -441,6 +470,7 @@ Partial Class frmStaffManagement
         Me.ClientSize = New System.Drawing.Size(1210, 806)
         Me.Controls.Add(Me.FormSkin1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmStaffManagement"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Staff Management"
@@ -490,4 +520,5 @@ Partial Class frmStaffManagement
     Friend WithEvents Label5 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents btnLogin As Guna.UI.WinForms.GunaButton
+    Friend WithEvents GunaButton1 As Guna.UI.WinForms.GunaButton
 End Class

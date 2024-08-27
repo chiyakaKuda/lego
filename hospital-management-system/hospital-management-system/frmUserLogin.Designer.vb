@@ -22,17 +22,18 @@ Partial Class frmUserLogin
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmUserLogin))
         Me.FormSkin1 = New FlatUI.FormSkin()
-        Me.GunaLabel1 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLabel2 = New Guna.UI.WinForms.GunaLabel()
-        Me.txtUsername = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.txtPassword = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.btnClear = New Guna.UI.WinForms.GunaButton()
-        Me.GunaControlBox1 = New Guna.UI.WinForms.GunaControlBox()
-        Me.GunaControlBox2 = New Guna.UI.WinForms.GunaControlBox()
-        Me.btnLogin = New Guna.UI.WinForms.GunaButton()
         Me.GunaLabel3 = New Guna.UI.WinForms.GunaLabel()
         Me.TxtUsertype = New Guna.UI2.WinForms.Guna2ComboBox()
+        Me.btnLogin = New Guna.UI.WinForms.GunaButton()
+        Me.GunaControlBox2 = New Guna.UI.WinForms.GunaControlBox()
+        Me.GunaControlBox1 = New Guna.UI.WinForms.GunaControlBox()
+        Me.btnClear = New Guna.UI.WinForms.GunaButton()
+        Me.txtPassword = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.txtUsername = New Guna.UI2.WinForms.Guna2TextBox()
+        Me.GunaLabel2 = New Guna.UI.WinForms.GunaLabel()
+        Me.GunaLabel1 = New Guna.UI.WinForms.GunaLabel()
         Me.FormSkin1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -61,167 +62,6 @@ Partial Class frmUserLogin
         Me.FormSkin1.Size = New System.Drawing.Size(562, 338)
         Me.FormSkin1.TabIndex = 0
         Me.FormSkin1.Text = "USER LOGIN"
-        '
-        'GunaLabel1
-        '
-        Me.GunaLabel1.AutoSize = True
-        Me.GunaLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaLabel1.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel1.ForeColor = System.Drawing.Color.White
-        Me.GunaLabel1.Location = New System.Drawing.Point(55, 157)
-        Me.GunaLabel1.Name = "GunaLabel1"
-        Me.GunaLabel1.Size = New System.Drawing.Size(101, 22)
-        Me.GunaLabel1.TabIndex = 0
-        Me.GunaLabel1.Text = "Username"
-        '
-        'GunaLabel2
-        '
-        Me.GunaLabel2.AutoSize = True
-        Me.GunaLabel2.BackColor = System.Drawing.Color.Transparent
-        Me.GunaLabel2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLabel2.ForeColor = System.Drawing.Color.White
-        Me.GunaLabel2.Location = New System.Drawing.Point(55, 211)
-        Me.GunaLabel2.Name = "GunaLabel2"
-        Me.GunaLabel2.Size = New System.Drawing.Size(95, 22)
-        Me.GunaLabel2.TabIndex = 1
-        Me.GunaLabel2.Text = "Password"
-        '
-        'txtUsername
-        '
-        Me.txtUsername.BackColor = System.Drawing.Color.Transparent
-        Me.txtUsername.BorderRadius = 9
-        Me.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtUsername.DefaultText = ""
-        Me.txtUsername.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.txtUsername.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.txtUsername.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.txtUsername.DisabledState.Parent = Me.txtUsername
-        Me.txtUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.txtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtUsername.FocusedState.Parent = Me.txtUsername
-        Me.txtUsername.Font = New System.Drawing.Font("Candara", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtUsername.HoverState.Parent = Me.txtUsername
-        Me.txtUsername.Location = New System.Drawing.Point(230, 142)
-        Me.txtUsername.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.txtUsername.Name = "txtUsername"
-        Me.txtUsername.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.txtUsername.PlaceholderText = ""
-        Me.txtUsername.SelectedText = ""
-        Me.txtUsername.ShadowDecoration.Parent = Me.txtUsername
-        Me.txtUsername.Size = New System.Drawing.Size(300, 43)
-        Me.txtUsername.TabIndex = 2
-        '
-        'txtPassword
-        '
-        Me.txtPassword.BackColor = System.Drawing.Color.Transparent
-        Me.txtPassword.BorderRadius = 9
-        Me.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtPassword.DefaultText = ""
-        Me.txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.txtPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.txtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.txtPassword.DisabledState.Parent = Me.txtPassword
-        Me.txtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtPassword.FocusedState.Parent = Me.txtPassword
-        Me.txtPassword.Font = New System.Drawing.Font("Candara", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtPassword.HoverState.Parent = Me.txtPassword
-        Me.txtPassword.Location = New System.Drawing.Point(230, 200)
-        Me.txtPassword.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
-        Me.txtPassword.Name = "txtPassword"
-        Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.txtPassword.PlaceholderText = ""
-        Me.txtPassword.SelectedText = ""
-        Me.txtPassword.ShadowDecoration.Parent = Me.txtPassword
-        Me.txtPassword.Size = New System.Drawing.Size(300, 43)
-        Me.txtPassword.TabIndex = 3
-        '
-        'btnClear
-        '
-        Me.btnClear.AnimationHoverSpeed = 0.07!
-        Me.btnClear.AnimationSpeed = 0.03!
-        Me.btnClear.BackColor = System.Drawing.Color.Transparent
-        Me.btnClear.BaseColor = System.Drawing.Color.OrangeRed
-        Me.btnClear.BorderColor = System.Drawing.Color.Black
-        Me.btnClear.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btnClear.FocusedColor = System.Drawing.Color.Empty
-        Me.btnClear.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.ForeColor = System.Drawing.Color.White
-        Me.btnClear.Image = Nothing
-        Me.btnClear.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnClear.Location = New System.Drawing.Point(388, 271)
-        Me.btnClear.Name = "btnClear"
-        Me.btnClear.OnHoverBaseColor = System.Drawing.Color.Maroon
-        Me.btnClear.OnHoverBorderColor = System.Drawing.Color.Black
-        Me.btnClear.OnHoverForeColor = System.Drawing.Color.White
-        Me.btnClear.OnHoverImage = Nothing
-        Me.btnClear.OnPressedColor = System.Drawing.Color.Black
-        Me.btnClear.Radius = 12
-        Me.btnClear.Size = New System.Drawing.Size(142, 42)
-        Me.btnClear.TabIndex = 4
-        Me.btnClear.Text = "CLEAR"
-        Me.btnClear.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'GunaControlBox1
-        '
-        Me.GunaControlBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GunaControlBox1.AnimationHoverSpeed = 0.07!
-        Me.GunaControlBox1.AnimationSpeed = 0.03!
-        Me.GunaControlBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.GunaControlBox1.IconColor = System.Drawing.Color.White
-        Me.GunaControlBox1.IconSize = 15.0!
-        Me.GunaControlBox1.Location = New System.Drawing.Point(512, -4)
-        Me.GunaControlBox1.Name = "GunaControlBox1"
-        Me.GunaControlBox1.OnHoverBackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.GunaControlBox1.OnHoverIconColor = System.Drawing.Color.White
-        Me.GunaControlBox1.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaControlBox1.Size = New System.Drawing.Size(50, 54)
-        Me.GunaControlBox1.TabIndex = 5
-        '
-        'GunaControlBox2
-        '
-        Me.GunaControlBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GunaControlBox2.AnimationHoverSpeed = 0.07!
-        Me.GunaControlBox2.AnimationSpeed = 0.03!
-        Me.GunaControlBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.GunaControlBox2.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox
-        Me.GunaControlBox2.IconColor = System.Drawing.Color.White
-        Me.GunaControlBox2.IconSize = 15.0!
-        Me.GunaControlBox2.Location = New System.Drawing.Point(462, -4)
-        Me.GunaControlBox2.Name = "GunaControlBox2"
-        Me.GunaControlBox2.OnHoverBackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.GunaControlBox2.OnHoverIconColor = System.Drawing.Color.White
-        Me.GunaControlBox2.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaControlBox2.Size = New System.Drawing.Size(50, 54)
-        Me.GunaControlBox2.TabIndex = 6
-        '
-        'btnLogin
-        '
-        Me.btnLogin.AnimationHoverSpeed = 0.07!
-        Me.btnLogin.AnimationSpeed = 0.03!
-        Me.btnLogin.BackColor = System.Drawing.Color.Transparent
-        Me.btnLogin.BaseColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
-        Me.btnLogin.BorderColor = System.Drawing.Color.Black
-        Me.btnLogin.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btnLogin.FocusedColor = System.Drawing.Color.Empty
-        Me.btnLogin.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogin.ForeColor = System.Drawing.Color.White
-        Me.btnLogin.Image = Nothing
-        Me.btnLogin.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnLogin.Location = New System.Drawing.Point(230, 271)
-        Me.btnLogin.Name = "btnLogin"
-        Me.btnLogin.OnHoverBaseColor = System.Drawing.Color.Green
-        Me.btnLogin.OnHoverBorderColor = System.Drawing.Color.Black
-        Me.btnLogin.OnHoverForeColor = System.Drawing.Color.White
-        Me.btnLogin.OnHoverImage = Nothing
-        Me.btnLogin.OnPressedColor = System.Drawing.Color.Black
-        Me.btnLogin.Radius = 12
-        Me.btnLogin.Size = New System.Drawing.Size(135, 42)
-        Me.btnLogin.TabIndex = 7
-        Me.btnLogin.Text = "LOGIN"
-        Me.btnLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'GunaLabel3
         '
@@ -256,6 +96,167 @@ Partial Class frmUserLogin
         Me.TxtUsertype.Size = New System.Drawing.Size(300, 41)
         Me.TxtUsertype.TabIndex = 1
         '
+        'btnLogin
+        '
+        Me.btnLogin.AnimationHoverSpeed = 0.07!
+        Me.btnLogin.AnimationSpeed = 0.03!
+        Me.btnLogin.BackColor = System.Drawing.Color.Transparent
+        Me.btnLogin.BaseColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.btnLogin.BorderColor = System.Drawing.Color.Black
+        Me.btnLogin.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnLogin.FocusedColor = System.Drawing.Color.Empty
+        Me.btnLogin.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogin.ForeColor = System.Drawing.Color.White
+        Me.btnLogin.Image = Nothing
+        Me.btnLogin.ImageSize = New System.Drawing.Size(20, 20)
+        Me.btnLogin.Location = New System.Drawing.Point(230, 271)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.OnHoverBaseColor = System.Drawing.Color.Green
+        Me.btnLogin.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.btnLogin.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnLogin.OnHoverImage = Nothing
+        Me.btnLogin.OnPressedColor = System.Drawing.Color.Black
+        Me.btnLogin.Radius = 12
+        Me.btnLogin.Size = New System.Drawing.Size(135, 42)
+        Me.btnLogin.TabIndex = 7
+        Me.btnLogin.Text = "LOGIN"
+        Me.btnLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'GunaControlBox2
+        '
+        Me.GunaControlBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GunaControlBox2.AnimationHoverSpeed = 0.07!
+        Me.GunaControlBox2.AnimationSpeed = 0.03!
+        Me.GunaControlBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.GunaControlBox2.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox
+        Me.GunaControlBox2.IconColor = System.Drawing.Color.White
+        Me.GunaControlBox2.IconSize = 15.0!
+        Me.GunaControlBox2.Location = New System.Drawing.Point(462, -4)
+        Me.GunaControlBox2.Name = "GunaControlBox2"
+        Me.GunaControlBox2.OnHoverBackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.GunaControlBox2.OnHoverIconColor = System.Drawing.Color.White
+        Me.GunaControlBox2.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaControlBox2.Size = New System.Drawing.Size(50, 54)
+        Me.GunaControlBox2.TabIndex = 6
+        '
+        'GunaControlBox1
+        '
+        Me.GunaControlBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GunaControlBox1.AnimationHoverSpeed = 0.07!
+        Me.GunaControlBox1.AnimationSpeed = 0.03!
+        Me.GunaControlBox1.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.GunaControlBox1.IconColor = System.Drawing.Color.White
+        Me.GunaControlBox1.IconSize = 15.0!
+        Me.GunaControlBox1.Location = New System.Drawing.Point(512, -4)
+        Me.GunaControlBox1.Name = "GunaControlBox1"
+        Me.GunaControlBox1.OnHoverBackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.GunaControlBox1.OnHoverIconColor = System.Drawing.Color.White
+        Me.GunaControlBox1.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaControlBox1.Size = New System.Drawing.Size(50, 54)
+        Me.GunaControlBox1.TabIndex = 5
+        '
+        'btnClear
+        '
+        Me.btnClear.AnimationHoverSpeed = 0.07!
+        Me.btnClear.AnimationSpeed = 0.03!
+        Me.btnClear.BackColor = System.Drawing.Color.Transparent
+        Me.btnClear.BaseColor = System.Drawing.Color.OrangeRed
+        Me.btnClear.BorderColor = System.Drawing.Color.Black
+        Me.btnClear.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnClear.FocusedColor = System.Drawing.Color.Empty
+        Me.btnClear.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClear.ForeColor = System.Drawing.Color.White
+        Me.btnClear.Image = Nothing
+        Me.btnClear.ImageSize = New System.Drawing.Size(20, 20)
+        Me.btnClear.Location = New System.Drawing.Point(388, 271)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.OnHoverBaseColor = System.Drawing.Color.Maroon
+        Me.btnClear.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.btnClear.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnClear.OnHoverImage = Nothing
+        Me.btnClear.OnPressedColor = System.Drawing.Color.Black
+        Me.btnClear.Radius = 12
+        Me.btnClear.Size = New System.Drawing.Size(142, 42)
+        Me.btnClear.TabIndex = 4
+        Me.btnClear.Text = "CLEAR"
+        Me.btnClear.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'txtPassword
+        '
+        Me.txtPassword.BackColor = System.Drawing.Color.Transparent
+        Me.txtPassword.BorderRadius = 9
+        Me.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtPassword.DefaultText = ""
+        Me.txtPassword.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txtPassword.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txtPassword.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtPassword.DisabledState.Parent = Me.txtPassword
+        Me.txtPassword.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtPassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtPassword.FocusedState.Parent = Me.txtPassword
+        Me.txtPassword.Font = New System.Drawing.Font("Candara", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtPassword.HoverState.Parent = Me.txtPassword
+        Me.txtPassword.Location = New System.Drawing.Point(230, 200)
+        Me.txtPassword.Margin = New System.Windows.Forms.Padding(6, 8, 6, 8)
+        Me.txtPassword.Name = "txtPassword"
+        Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txtPassword.PlaceholderText = ""
+        Me.txtPassword.SelectedText = ""
+        Me.txtPassword.ShadowDecoration.Parent = Me.txtPassword
+        Me.txtPassword.Size = New System.Drawing.Size(300, 43)
+        Me.txtPassword.TabIndex = 3
+        '
+        'txtUsername
+        '
+        Me.txtUsername.BackColor = System.Drawing.Color.Transparent
+        Me.txtUsername.BorderRadius = 9
+        Me.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam
+        Me.txtUsername.DefaultText = ""
+        Me.txtUsername.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
+        Me.txtUsername.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
+        Me.txtUsername.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtUsername.DisabledState.Parent = Me.txtUsername
+        Me.txtUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtUsername.FocusedState.Parent = Me.txtUsername
+        Me.txtUsername.Font = New System.Drawing.Font("Candara", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.txtUsername.HoverState.Parent = Me.txtUsername
+        Me.txtUsername.Location = New System.Drawing.Point(230, 142)
+        Me.txtUsername.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.txtUsername.Name = "txtUsername"
+        Me.txtUsername.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.txtUsername.PlaceholderText = ""
+        Me.txtUsername.SelectedText = ""
+        Me.txtUsername.ShadowDecoration.Parent = Me.txtUsername
+        Me.txtUsername.Size = New System.Drawing.Size(300, 43)
+        Me.txtUsername.TabIndex = 2
+        '
+        'GunaLabel2
+        '
+        Me.GunaLabel2.AutoSize = True
+        Me.GunaLabel2.BackColor = System.Drawing.Color.Transparent
+        Me.GunaLabel2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaLabel2.ForeColor = System.Drawing.Color.White
+        Me.GunaLabel2.Location = New System.Drawing.Point(55, 211)
+        Me.GunaLabel2.Name = "GunaLabel2"
+        Me.GunaLabel2.Size = New System.Drawing.Size(95, 22)
+        Me.GunaLabel2.TabIndex = 1
+        Me.GunaLabel2.Text = "Password"
+        '
+        'GunaLabel1
+        '
+        Me.GunaLabel1.AutoSize = True
+        Me.GunaLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.GunaLabel1.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaLabel1.ForeColor = System.Drawing.Color.White
+        Me.GunaLabel1.Location = New System.Drawing.Point(55, 157)
+        Me.GunaLabel1.Name = "GunaLabel1"
+        Me.GunaLabel1.Size = New System.Drawing.Size(101, 22)
+        Me.GunaLabel1.TabIndex = 0
+        Me.GunaLabel1.Text = "Username"
+        '
         'frmUserLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -263,6 +264,7 @@ Partial Class frmUserLogin
         Me.ClientSize = New System.Drawing.Size(562, 338)
         Me.Controls.Add(Me.FormSkin1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmUserLogin"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "User Login"

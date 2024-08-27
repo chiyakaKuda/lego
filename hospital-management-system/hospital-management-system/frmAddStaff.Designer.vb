@@ -22,6 +22,7 @@ Partial Class frmAddStaff
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmAddStaff))
         Me.FormSkin1 = New FlatUI.FormSkin()
         Me.FlatGroupBox1 = New FlatUI.FlatGroupBox()
         Me.GunaButton3 = New Guna.UI.WinForms.GunaButton()
@@ -528,6 +529,7 @@ Partial Class frmAddStaff
         Me.ClientSize = New System.Drawing.Size(1240, 612)
         Me.Controls.Add(Me.FormSkin1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmAddStaff"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmAddStaff"

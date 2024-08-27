@@ -19,3 +19,5 @@ C:\Users\USER\Desktop\Acts of Codes\lego\hospital-management-system\hospital-man
 C:\Users\USER\Desktop\Acts of Codes\lego\hospital-management-system\hospital-management-system\obj\Debug\hospital_management_system.frmMainMenu.resources
 C:\Users\USER\Desktop\Acts of Codes\lego\hospital-management-system\hospital-management-system\obj\Debug\hospital_management_system.frmAddStaff.resources
 C:\Users\USER\Desktop\Acts of Codes\lego\hospital-management-system\hospital-management-system\obj\Debug\hospital_management_system.frmUpdateStaff.resources
+C:\Users\USER\Desktop\Acts of Codes\lego\hospital-management-system\hospital-management-system\obj\Debug\hospital_management_system.frmReports.resources
+C:\Users\USER\Desktop\Acts of Codes\lego\hospital-management-system\hospital-management-system\obj\Debug\hospital_management_system.frmStaffManagement.resources

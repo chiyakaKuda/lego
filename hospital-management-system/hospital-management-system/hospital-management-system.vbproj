@@ -47,6 +47,9 @@
   <PropertyGroup>
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>d69e6cbbcd9e377451aa4e2bb33c931c.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="FlatUI">
       <HintPath>..\..\..\FlatUI.dll</HintPath>
@@ -99,6 +102,12 @@
     <Compile Include="frmMainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmReports.Designer.vb">
+      <DependentUpon>frmReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmStaffManagement.Designer.vb">
       <DependentUpon>frmStaffManagement.vb</DependentUpon>
     </Compile>
@@ -148,6 +157,9 @@
     <EmbeddedResource Include="frmMainMenu.resx">
       <DependentUpon>frmMainMenu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmReports.resx">
+      <DependentUpon>frmReports.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmStaffManagement.resx">
       <DependentUpon>frmStaffManagement.vb</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +190,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="d69e6cbbcd9e377451aa4e2bb33c931c.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

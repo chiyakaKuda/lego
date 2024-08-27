@@ -22,10 +22,11 @@ Partial Class frmMainMenu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMainMenu))
         Me.FormSkin1 = New FlatUI.FormSkin()
+        Me.GunaControlBox3 = New Guna.UI.WinForms.GunaControlBox()
         Me.GunaControlBox2 = New Guna.UI.WinForms.GunaControlBox()
         Me.GunaControlBox1 = New Guna.UI.WinForms.GunaControlBox()
-        Me.GunaControlBox3 = New Guna.UI.WinForms.GunaControlBox()
         Me.FormSkin1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -47,6 +48,23 @@ Partial Class frmMainMenu
         Me.FormSkin1.Size = New System.Drawing.Size(1569, 860)
         Me.FormSkin1.TabIndex = 0
         Me.FormSkin1.Text = "Main Menu"
+        '
+        'GunaControlBox3
+        '
+        Me.GunaControlBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GunaControlBox3.AnimationHoverSpeed = 0.07!
+        Me.GunaControlBox3.AnimationSpeed = 0.03!
+        Me.GunaControlBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.GunaControlBox3.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox
+        Me.GunaControlBox3.IconColor = System.Drawing.Color.White
+        Me.GunaControlBox3.IconSize = 15.0!
+        Me.GunaControlBox3.Location = New System.Drawing.Point(1417, -5)
+        Me.GunaControlBox3.Name = "GunaControlBox3"
+        Me.GunaControlBox3.OnHoverBackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.GunaControlBox3.OnHoverIconColor = System.Drawing.Color.White
+        Me.GunaControlBox3.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaControlBox3.Size = New System.Drawing.Size(50, 54)
+        Me.GunaControlBox3.TabIndex = 9
         '
         'GunaControlBox2
         '
@@ -81,23 +99,6 @@ Partial Class frmMainMenu
         Me.GunaControlBox1.Size = New System.Drawing.Size(50, 54)
         Me.GunaControlBox1.TabIndex = 7
         '
-        'GunaControlBox3
-        '
-        Me.GunaControlBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GunaControlBox3.AnimationHoverSpeed = 0.07!
-        Me.GunaControlBox3.AnimationSpeed = 0.03!
-        Me.GunaControlBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.GunaControlBox3.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox
-        Me.GunaControlBox3.IconColor = System.Drawing.Color.White
-        Me.GunaControlBox3.IconSize = 15.0!
-        Me.GunaControlBox3.Location = New System.Drawing.Point(1417, -5)
-        Me.GunaControlBox3.Name = "GunaControlBox3"
-        Me.GunaControlBox3.OnHoverBackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.GunaControlBox3.OnHoverIconColor = System.Drawing.Color.White
-        Me.GunaControlBox3.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaControlBox3.Size = New System.Drawing.Size(50, 54)
-        Me.GunaControlBox3.TabIndex = 9
-        '
         'frmMainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -105,6 +106,7 @@ Partial Class frmMainMenu
         Me.ClientSize = New System.Drawing.Size(1569, 860)
         Me.Controls.Add(Me.FormSkin1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmMainMenu"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmMainMenu"
