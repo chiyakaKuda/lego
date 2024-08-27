@@ -90,10 +90,28 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAbout.Designer.vb">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmAddStaff.Designer.vb">
       <DependentUpon>frmAddStaff.vb</DependentUpon>
     </Compile>
     <Compile Include="frmAddStaff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBilling-Payments.Designer.vb">
+      <DependentUpon>frmBilling-Payments.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmBilling-Payments.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDoctors.Designer.vb">
+      <DependentUpon>frmDoctors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDoctors.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMainMenu.Designer.vb">
@@ -102,16 +120,34 @@
     <Compile Include="frmMainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPatientProcessing.Designer.vb">
-      <DependentUpon>frmPatientProcessing.vb</DependentUpon>
+    <Compile Include="frmMedicalRecords.Designer.vb">
+      <DependentUpon>frmMedicalRecords.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmPatientProcessing.vb">
+    <Compile Include="frmMedicalRecords.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPatientCheckIn.Designer.vb">
+      <DependentUpon>frmPatientCheckIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPatientCheckIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPatientCheckOut.Designer.vb">
+      <DependentUpon>frmPatientCheckOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPatientCheckOut.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmPatients.Designer.vb">
       <DependentUpon>frmPatients.vb</DependentUpon>
     </Compile>
     <Compile Include="frmPatients.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPharmacy Management.Designer.vb">
+      <DependentUpon>frmPharmacy Management.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPharmacy Management.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmReports.Designer.vb">
@@ -163,14 +199,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="frmAbout.resx">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAddStaff.resx">
       <DependentUpon>frmAddStaff.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMainMenu.resx">
       <DependentUpon>frmMainMenu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmPatientProcessing.resx">
-      <DependentUpon>frmPatientProcessing.vb</DependentUpon>
+    <EmbeddedResource Include="frmPatientCheckIn.resx">
+      <DependentUpon>frmPatientCheckIn.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPatients.resx">
       <DependentUpon>frmPatients.vb</DependentUpon>
