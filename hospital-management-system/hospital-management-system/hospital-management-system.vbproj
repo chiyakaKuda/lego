@@ -102,12 +102,6 @@
     <Compile Include="frmAddStaff.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBilling-Payments.Designer.vb">
-      <DependentUpon>frmBilling-Payments.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmBilling-Payments.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmDoctors.Designer.vb">
       <DependentUpon>frmDoctors.vb</DependentUpon>
     </Compile>
@@ -210,9 +204,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddStaff.resx">
       <DependentUpon>frmAddStaff.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmBilling-Payments.resx">
-      <DependentUpon>frmBilling-Payments.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmDoctors.resx">
       <DependentUpon>frmDoctors.vb</DependentUpon>

@@ -18,4 +18,8 @@
     Private Sub Guna2VProgressBar1_ValueChanged(sender As Object, e As EventArgs) Handles Guna2VProgressBar1.ValueChanged
 
     End Sub
+
+    Private Sub GunaButton8_Click(sender As Object, e As EventArgs) Handles GunaButton8.Click
+
+    End Sub
 End Class

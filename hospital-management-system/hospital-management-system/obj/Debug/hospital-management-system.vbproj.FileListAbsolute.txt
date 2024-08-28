@@ -29,3 +29,4 @@ C:\Users\USER\Desktop\Acts of Codes\lego\hospital-management-system\hospital-man
 C:\Users\USER\Desktop\Acts of Codes\lego\hospital-management-system\hospital-management-system\obj\Debug\hospital_management_system.frmPharmacyManagement.resources
 C:\Users\USER\Desktop\Acts of Codes\lego\hospital-management-system\hospital-management-system\obj\Debug\hospital_management_system.frmUserManagement.resources
 C:\Users\USER\Desktop\Acts of Codes\lego\hospital-management-system\hospital-management-system\obj\Debug\hospital_management_system.frmUserRegistration.resources
+C:\Users\USER\Desktop\Acts of Codes\lego\hospital-management-system\hospital-management-system\obj\Debug\hospital_management_system.frmBilling_Payments.resources
