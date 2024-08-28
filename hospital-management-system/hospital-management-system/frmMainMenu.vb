@@ -14,4 +14,8 @@
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
 
     End Sub
+
+    Private Sub Guna2VProgressBar1_ValueChanged(sender As Object, e As EventArgs) Handles Guna2VProgressBar1.ValueChanged
+
+    End Sub
 End Class

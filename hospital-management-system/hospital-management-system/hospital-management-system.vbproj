@@ -120,12 +120,6 @@
     <Compile Include="frmMainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMedicalRecords.Designer.vb">
-      <DependentUpon>frmMedicalRecords.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmMedicalRecords.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmPatientCheckIn.Designer.vb">
       <DependentUpon>frmPatientCheckIn.vb</DependentUpon>
     </Compile>
@@ -144,10 +138,10 @@
     <Compile Include="frmPatients.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPharmacy Management.Designer.vb">
-      <DependentUpon>frmPharmacy Management.vb</DependentUpon>
+    <Compile Include="frmPharmacyManagement.Designer.vb">
+      <DependentUpon>frmPharmacyManagement.vb</DependentUpon>
     </Compile>
-    <Compile Include="frmPharmacy Management.vb">
+    <Compile Include="frmPharmacyManagement.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmReports.Designer.vb">
@@ -217,6 +211,9 @@
     <EmbeddedResource Include="frmAddStaff.resx">
       <DependentUpon>frmAddStaff.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmBilling-Payments.resx">
+      <DependentUpon>frmBilling-Payments.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmDoctors.resx">
       <DependentUpon>frmDoctors.vb</DependentUpon>
     </EmbeddedResource>
@@ -231,6 +228,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmPatients.resx">
       <DependentUpon>frmPatients.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPharmacyManagement.resx">
+      <DependentUpon>frmPharmacyManagement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmReports.resx">
       <DependentUpon>frmReports.vb</DependentUpon>
@@ -249,6 +249,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmUserManagement.resx">
       <DependentUpon>frmUserManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUserRegistration.resx">
+      <DependentUpon>frmUserRegistration.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

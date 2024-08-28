@@ -34,6 +34,7 @@ Partial Class frmUserLogin
         Me.txtUsername = New Guna.UI2.WinForms.Guna2TextBox()
         Me.GunaLabel2 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel1 = New Guna.UI.WinForms.GunaLabel()
+        Me.GunaLinkLabel1 = New Guna.UI.WinForms.GunaLinkLabel()
         Me.FormSkin1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -42,6 +43,7 @@ Partial Class frmUserLogin
         Me.FormSkin1.BackColor = System.Drawing.Color.White
         Me.FormSkin1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
         Me.FormSkin1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.FormSkin1.Controls.Add(Me.GunaLinkLabel1)
         Me.FormSkin1.Controls.Add(Me.GunaLabel3)
         Me.FormSkin1.Controls.Add(Me.TxtUsertype)
         Me.FormSkin1.Controls.Add(Me.btnLogin)
@@ -109,7 +111,7 @@ Partial Class frmUserLogin
         Me.btnLogin.ForeColor = System.Drawing.Color.White
         Me.btnLogin.Image = Nothing
         Me.btnLogin.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnLogin.Location = New System.Drawing.Point(230, 271)
+        Me.btnLogin.Location = New System.Drawing.Point(230, 284)
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.OnHoverBaseColor = System.Drawing.Color.Green
         Me.btnLogin.OnHoverBorderColor = System.Drawing.Color.Black
@@ -168,7 +170,7 @@ Partial Class frmUserLogin
         Me.btnClear.ForeColor = System.Drawing.Color.White
         Me.btnClear.Image = Nothing
         Me.btnClear.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnClear.Location = New System.Drawing.Point(388, 271)
+        Me.btnClear.Location = New System.Drawing.Point(388, 284)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.OnHoverBaseColor = System.Drawing.Color.Maroon
         Me.btnClear.OnHoverBorderColor = System.Drawing.Color.Black
@@ -257,6 +259,19 @@ Partial Class frmUserLogin
         Me.GunaLabel1.TabIndex = 0
         Me.GunaLabel1.Text = "Username"
         '
+        'GunaLinkLabel1
+        '
+        Me.GunaLinkLabel1.AutoSize = True
+        Me.GunaLinkLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.GunaLinkLabel1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaLinkLabel1.LinkColor = System.Drawing.Color.White
+        Me.GunaLinkLabel1.Location = New System.Drawing.Point(262, 250)
+        Me.GunaLinkLabel1.Name = "GunaLinkLabel1"
+        Me.GunaLinkLabel1.Size = New System.Drawing.Size(259, 20)
+        Me.GunaLinkLabel1.TabIndex = 12
+        Me.GunaLinkLabel1.TabStop = True
+        Me.GunaLinkLabel1.Text = "Register- I don't have an account!"
+        '
         'frmUserLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -286,4 +301,5 @@ Partial Class frmUserLogin
     Friend WithEvents GunaLabel3 As Guna.UI.WinForms.GunaLabel
     Friend WithEvents TxtUsertype As Guna.UI2.WinForms.Guna2ComboBox
     Friend WithEvents btnLogin As Guna.UI.WinForms.GunaButton
+    Friend WithEvents GunaLinkLabel1 As Guna.UI.WinForms.GunaLinkLabel
 End Class
