@@ -217,11 +217,17 @@
     <EmbeddedResource Include="frmAddStaff.resx">
       <DependentUpon>frmAddStaff.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDoctors.resx">
+      <DependentUpon>frmDoctors.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMainMenu.resx">
       <DependentUpon>frmMainMenu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPatientCheckIn.resx">
       <DependentUpon>frmPatientCheckIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPatientCheckOut.resx">
+      <DependentUpon>frmPatientCheckOut.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPatients.resx">
       <DependentUpon>frmPatients.vb</DependentUpon>
