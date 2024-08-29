@@ -22,17 +22,18 @@ Partial Class frmPatientCheckOut
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmPatientCheckOut))
         Me.FormSkin1 = New FlatUI.FormSkin()
-        Me.GunaControlBox3 = New Guna.UI.WinForms.GunaControlBox()
-        Me.GunaControlBox2 = New Guna.UI.WinForms.GunaControlBox()
+        Me.GunaButton1 = New Guna.UI.WinForms.GunaButton()
+        Me.btnLogin = New Guna.UI.WinForms.GunaButton()
         Me.Guna2TextBox3 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.GunaButton1 = New Guna.UI.WinForms.GunaButton()
-        Me.btnLogin = New Guna.UI.WinForms.GunaButton()
+        Me.GunaControlBox3 = New Guna.UI.WinForms.GunaControlBox()
+        Me.GunaControlBox2 = New Guna.UI.WinForms.GunaControlBox()
         Me.FormSkin1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -62,38 +63,57 @@ Partial Class frmPatientCheckOut
         Me.FormSkin1.TabIndex = 0
         Me.FormSkin1.Text = "Patient Check Out"
         '
-        'GunaControlBox3
+        'GunaButton1
         '
-        Me.GunaControlBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GunaControlBox3.AnimationHoverSpeed = 0.07!
-        Me.GunaControlBox3.AnimationSpeed = 0.03!
-        Me.GunaControlBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.GunaControlBox3.IconColor = System.Drawing.Color.White
-        Me.GunaControlBox3.IconSize = 15.0!
-        Me.GunaControlBox3.Location = New System.Drawing.Point(609, -5)
-        Me.GunaControlBox3.Name = "GunaControlBox3"
-        Me.GunaControlBox3.OnHoverBackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.GunaControlBox3.OnHoverIconColor = System.Drawing.Color.White
-        Me.GunaControlBox3.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaControlBox3.Size = New System.Drawing.Size(50, 54)
-        Me.GunaControlBox3.TabIndex = 17
+        Me.GunaButton1.AnimationHoverSpeed = 0.07!
+        Me.GunaButton1.AnimationSpeed = 0.03!
+        Me.GunaButton1.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton1.BaseColor = System.Drawing.Color.OrangeRed
+        Me.GunaButton1.BorderColor = System.Drawing.Color.Black
+        Me.GunaButton1.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton1.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaButton1.ForeColor = System.Drawing.Color.White
+        Me.GunaButton1.Image = Nothing
+        Me.GunaButton1.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton1.Location = New System.Drawing.Point(228, 267)
+        Me.GunaButton1.Name = "GunaButton1"
+        Me.GunaButton1.OnHoverBaseColor = System.Drawing.Color.Green
+        Me.GunaButton1.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaButton1.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaButton1.OnHoverImage = Nothing
+        Me.GunaButton1.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton1.Radius = 7
+        Me.GunaButton1.Size = New System.Drawing.Size(141, 33)
+        Me.GunaButton1.TabIndex = 38
+        Me.GunaButton1.Text = "Clear Details"
+        Me.GunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'GunaControlBox2
+        'btnLogin
         '
-        Me.GunaControlBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GunaControlBox2.AnimationHoverSpeed = 0.07!
-        Me.GunaControlBox2.AnimationSpeed = 0.03!
-        Me.GunaControlBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.GunaControlBox2.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox
-        Me.GunaControlBox2.IconColor = System.Drawing.Color.White
-        Me.GunaControlBox2.IconSize = 15.0!
-        Me.GunaControlBox2.Location = New System.Drawing.Point(558, -5)
-        Me.GunaControlBox2.Name = "GunaControlBox2"
-        Me.GunaControlBox2.OnHoverBackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.GunaControlBox2.OnHoverIconColor = System.Drawing.Color.White
-        Me.GunaControlBox2.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaControlBox2.Size = New System.Drawing.Size(50, 54)
-        Me.GunaControlBox2.TabIndex = 16
+        Me.btnLogin.AnimationHoverSpeed = 0.07!
+        Me.btnLogin.AnimationSpeed = 0.03!
+        Me.btnLogin.BackColor = System.Drawing.Color.Transparent
+        Me.btnLogin.BaseColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.btnLogin.BorderColor = System.Drawing.Color.Black
+        Me.btnLogin.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.btnLogin.FocusedColor = System.Drawing.Color.Empty
+        Me.btnLogin.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogin.ForeColor = System.Drawing.Color.White
+        Me.btnLogin.Image = Nothing
+        Me.btnLogin.ImageSize = New System.Drawing.Size(20, 20)
+        Me.btnLogin.Location = New System.Drawing.Point(443, 267)
+        Me.btnLogin.Name = "btnLogin"
+        Me.btnLogin.OnHoverBaseColor = System.Drawing.Color.Green
+        Me.btnLogin.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.btnLogin.OnHoverForeColor = System.Drawing.Color.White
+        Me.btnLogin.OnHoverImage = Nothing
+        Me.btnLogin.OnPressedColor = System.Drawing.Color.Black
+        Me.btnLogin.Radius = 7
+        Me.btnLogin.Size = New System.Drawing.Size(141, 33)
+        Me.btnLogin.TabIndex = 37
+        Me.btnLogin.Text = "Check Out"
+        Me.btnLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Guna2TextBox3
         '
@@ -203,57 +223,38 @@ Partial Class frmPatientCheckOut
         Me.Label1.TabIndex = 27
         Me.Label1.Text = "Patient ID: "
         '
-        'GunaButton1
+        'GunaControlBox3
         '
-        Me.GunaButton1.AnimationHoverSpeed = 0.07!
-        Me.GunaButton1.AnimationSpeed = 0.03!
-        Me.GunaButton1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton1.BaseColor = System.Drawing.Color.OrangeRed
-        Me.GunaButton1.BorderColor = System.Drawing.Color.Black
-        Me.GunaButton1.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton1.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton1.ForeColor = System.Drawing.Color.White
-        Me.GunaButton1.Image = Nothing
-        Me.GunaButton1.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton1.Location = New System.Drawing.Point(228, 267)
-        Me.GunaButton1.Name = "GunaButton1"
-        Me.GunaButton1.OnHoverBaseColor = System.Drawing.Color.Green
-        Me.GunaButton1.OnHoverBorderColor = System.Drawing.Color.Black
-        Me.GunaButton1.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton1.OnHoverImage = Nothing
-        Me.GunaButton1.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton1.Radius = 7
-        Me.GunaButton1.Size = New System.Drawing.Size(141, 33)
-        Me.GunaButton1.TabIndex = 38
-        Me.GunaButton1.Text = "Clear Details"
-        Me.GunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.GunaControlBox3.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GunaControlBox3.AnimationHoverSpeed = 0.07!
+        Me.GunaControlBox3.AnimationSpeed = 0.03!
+        Me.GunaControlBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.GunaControlBox3.IconColor = System.Drawing.Color.White
+        Me.GunaControlBox3.IconSize = 15.0!
+        Me.GunaControlBox3.Location = New System.Drawing.Point(609, -5)
+        Me.GunaControlBox3.Name = "GunaControlBox3"
+        Me.GunaControlBox3.OnHoverBackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.GunaControlBox3.OnHoverIconColor = System.Drawing.Color.White
+        Me.GunaControlBox3.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaControlBox3.Size = New System.Drawing.Size(50, 54)
+        Me.GunaControlBox3.TabIndex = 17
         '
-        'btnLogin
+        'GunaControlBox2
         '
-        Me.btnLogin.AnimationHoverSpeed = 0.07!
-        Me.btnLogin.AnimationSpeed = 0.03!
-        Me.btnLogin.BackColor = System.Drawing.Color.Transparent
-        Me.btnLogin.BaseColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
-        Me.btnLogin.BorderColor = System.Drawing.Color.Black
-        Me.btnLogin.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.btnLogin.FocusedColor = System.Drawing.Color.Empty
-        Me.btnLogin.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogin.ForeColor = System.Drawing.Color.White
-        Me.btnLogin.Image = Nothing
-        Me.btnLogin.ImageSize = New System.Drawing.Size(20, 20)
-        Me.btnLogin.Location = New System.Drawing.Point(443, 267)
-        Me.btnLogin.Name = "btnLogin"
-        Me.btnLogin.OnHoverBaseColor = System.Drawing.Color.Green
-        Me.btnLogin.OnHoverBorderColor = System.Drawing.Color.Black
-        Me.btnLogin.OnHoverForeColor = System.Drawing.Color.White
-        Me.btnLogin.OnHoverImage = Nothing
-        Me.btnLogin.OnPressedColor = System.Drawing.Color.Black
-        Me.btnLogin.Radius = 7
-        Me.btnLogin.Size = New System.Drawing.Size(141, 33)
-        Me.btnLogin.TabIndex = 37
-        Me.btnLogin.Text = "Check Out"
-        Me.btnLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.GunaControlBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GunaControlBox2.AnimationHoverSpeed = 0.07!
+        Me.GunaControlBox2.AnimationSpeed = 0.03!
+        Me.GunaControlBox2.BackColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.GunaControlBox2.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox
+        Me.GunaControlBox2.IconColor = System.Drawing.Color.White
+        Me.GunaControlBox2.IconSize = 15.0!
+        Me.GunaControlBox2.Location = New System.Drawing.Point(558, -5)
+        Me.GunaControlBox2.Name = "GunaControlBox2"
+        Me.GunaControlBox2.OnHoverBackColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.GunaControlBox2.OnHoverIconColor = System.Drawing.Color.White
+        Me.GunaControlBox2.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaControlBox2.Size = New System.Drawing.Size(50, 54)
+        Me.GunaControlBox2.TabIndex = 16
         '
         'frmPatientCheckOut
         '
@@ -262,6 +263,7 @@ Partial Class frmPatientCheckOut
         Me.ClientSize = New System.Drawing.Size(659, 356)
         Me.Controls.Add(Me.FormSkin1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmPatientCheckOut"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "frmPatientCheckOut"
