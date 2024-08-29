@@ -1,0 +1,68 @@
+{
+  "files": [
+    {
+      "fileName": "./StreamJsonRpc.dll.lce",
+      "SPDXID": "SPDXRef-File--StreamJsonRpc.dll.lce-FD332B61AF7AF4416E6AF1F2343E9A0FB73E6328",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "a70f129d89b0fbddd4280a7b576d6af455d0db2cbaf6653be3293e52eb708efc"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fd332b61af7af4416e6af1f2343e9a0fb73e6328"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "StreamJsonRpc",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "4de213379edff5133c00567714ac807c7bac0cd3"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.0.0",
+      "supplier": "Organization: Microsoft",
+      "hasFiles": [
+        "SPDXRef-File--StreamJsonRpc.dll.lce-FD332B61AF7AF4416E6AF1F2343E9A0FB73E6328"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "StreamJsonRpc 1.0.0",
+  "documentNamespace": "https://sbom.microsoft/1:34sbAVZth0--DQCSE2iE2Q:kMXbC2KgP0yw9pOD9nhl7g/8125:9778917/StreamJsonRpc:1.0.0:E0jw9JPKyE2Hei5LK7sePw",
+  "creationInfo": {
+    "created": "2024-06-25T03:07:04Z",
+    "creators": [
+      "Organization: Microsoft",
+      "Tool: Microsoft.SBOMTool-0.2.7"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}
