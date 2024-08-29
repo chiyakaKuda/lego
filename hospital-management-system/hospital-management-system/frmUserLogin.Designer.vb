@@ -24,6 +24,7 @@ Partial Class frmUserLogin
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmUserLogin))
         Me.FormSkin1 = New FlatUI.FormSkin()
+        Me.GunaLinkLabel1 = New Guna.UI.WinForms.GunaLinkLabel()
         Me.GunaLabel3 = New Guna.UI.WinForms.GunaLabel()
         Me.TxtUsertype = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.btnLogin = New Guna.UI.WinForms.GunaButton()
@@ -34,7 +35,6 @@ Partial Class frmUserLogin
         Me.txtUsername = New Guna.UI2.WinForms.Guna2TextBox()
         Me.GunaLabel2 = New Guna.UI.WinForms.GunaLabel()
         Me.GunaLabel1 = New Guna.UI.WinForms.GunaLabel()
-        Me.GunaLinkLabel1 = New Guna.UI.WinForms.GunaLinkLabel()
         Me.FormSkin1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -64,6 +64,19 @@ Partial Class frmUserLogin
         Me.FormSkin1.Size = New System.Drawing.Size(562, 338)
         Me.FormSkin1.TabIndex = 0
         Me.FormSkin1.Text = "USER LOGIN"
+        '
+        'GunaLinkLabel1
+        '
+        Me.GunaLinkLabel1.AutoSize = True
+        Me.GunaLinkLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.GunaLinkLabel1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaLinkLabel1.LinkColor = System.Drawing.Color.White
+        Me.GunaLinkLabel1.Location = New System.Drawing.Point(262, 250)
+        Me.GunaLinkLabel1.Name = "GunaLinkLabel1"
+        Me.GunaLinkLabel1.Size = New System.Drawing.Size(259, 20)
+        Me.GunaLinkLabel1.TabIndex = 12
+        Me.GunaLinkLabel1.TabStop = True
+        Me.GunaLinkLabel1.Text = "Register- I don't have an account!"
         '
         'GunaLabel3
         '
@@ -258,19 +271,6 @@ Partial Class frmUserLogin
         Me.GunaLabel1.Size = New System.Drawing.Size(101, 22)
         Me.GunaLabel1.TabIndex = 0
         Me.GunaLabel1.Text = "Username"
-        '
-        'GunaLinkLabel1
-        '
-        Me.GunaLinkLabel1.AutoSize = True
-        Me.GunaLinkLabel1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaLinkLabel1.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaLinkLabel1.LinkColor = System.Drawing.Color.White
-        Me.GunaLinkLabel1.Location = New System.Drawing.Point(262, 250)
-        Me.GunaLinkLabel1.Name = "GunaLinkLabel1"
-        Me.GunaLinkLabel1.Size = New System.Drawing.Size(259, 20)
-        Me.GunaLinkLabel1.TabIndex = 12
-        Me.GunaLinkLabel1.TabStop = True
-        Me.GunaLinkLabel1.Text = "Register- I don't have an account!"
         '
         'frmUserLogin
         '
