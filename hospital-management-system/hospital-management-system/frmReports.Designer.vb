@@ -35,6 +35,7 @@ Partial Class frmReports
         Me.Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.GunaControlBox3 = New Guna.UI.WinForms.GunaControlBox()
         Me.GunaControlBox2 = New Guna.UI.WinForms.GunaControlBox()
+        Me.Guna2ComboBox2 = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.FormSkin1.SuspendLayout()
         Me.FlatGroupBox1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -46,6 +47,7 @@ Partial Class frmReports
         Me.FormSkin1.BackColor = System.Drawing.Color.White
         Me.FormSkin1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
         Me.FormSkin1.BorderColor = System.Drawing.Color.FromArgb(CType(CType(53, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.FormSkin1.Controls.Add(Me.Guna2ComboBox2)
         Me.FormSkin1.Controls.Add(Me.FlatGroupBox1)
         Me.FormSkin1.Controls.Add(Me.Panel1)
         Me.FormSkin1.Controls.Add(Me.Guna2DataGridView1)
@@ -87,11 +89,13 @@ Partial Class frmReports
         Me.Guna2ComboBox1.FormattingEnabled = True
         Me.Guna2ComboBox1.HoverState.Parent = Me.Guna2ComboBox1
         Me.Guna2ComboBox1.ItemHeight = 30
+        Me.Guna2ComboBox1.Items.AddRange(New Object() {"Staff Shifts", "Morning", "Afternoon", "Night"})
         Me.Guna2ComboBox1.ItemsAppearance.Parent = Me.Guna2ComboBox1
         Me.Guna2ComboBox1.Location = New System.Drawing.Point(13, 42)
         Me.Guna2ComboBox1.Name = "Guna2ComboBox1"
         Me.Guna2ComboBox1.ShadowDecoration.Parent = Me.Guna2ComboBox1
         Me.Guna2ComboBox1.Size = New System.Drawing.Size(219, 36)
+        Me.Guna2ComboBox1.StartIndex = 0
         Me.Guna2ComboBox1.TabIndex = 20
         '
         'Panel1
@@ -242,6 +246,27 @@ Partial Class frmReports
         Me.GunaControlBox2.Size = New System.Drawing.Size(50, 54)
         Me.GunaControlBox2.TabIndex = 16
         '
+        'Guna2ComboBox2
+        '
+        Me.Guna2ComboBox2.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2ComboBox2.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
+        Me.Guna2ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.Guna2ComboBox2.FocusedColor = System.Drawing.Color.Empty
+        Me.Guna2ComboBox2.FocusedState.Parent = Me.Guna2ComboBox2
+        Me.Guna2ComboBox2.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.Guna2ComboBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
+        Me.Guna2ComboBox2.FormattingEnabled = True
+        Me.Guna2ComboBox2.HoverState.Parent = Me.Guna2ComboBox2
+        Me.Guna2ComboBox2.ItemHeight = 30
+        Me.Guna2ComboBox2.Items.AddRange(New Object() {"Staff Shifts", "Morning", "Afternoon", "Night"})
+        Me.Guna2ComboBox2.ItemsAppearance.Parent = Me.Guna2ComboBox2
+        Me.Guna2ComboBox2.Location = New System.Drawing.Point(574, 93)
+        Me.Guna2ComboBox2.Name = "Guna2ComboBox2"
+        Me.Guna2ComboBox2.ShadowDecoration.Parent = Me.Guna2ComboBox2
+        Me.Guna2ComboBox2.Size = New System.Drawing.Size(219, 36)
+        Me.Guna2ComboBox2.StartIndex = 0
+        Me.Guna2ComboBox2.TabIndex = 21
+        '
         'frmReports
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -271,4 +296,5 @@ Partial Class frmReports
     Friend WithEvents Panel1 As Panel
     Friend WithEvents GunaButton2 As Guna.UI.WinForms.GunaButton
     Friend WithEvents GunaButton1 As Guna.UI.WinForms.GunaButton
+    Friend WithEvents Guna2ComboBox2 As Guna.UI2.WinForms.Guna2ComboBox
 End Class
