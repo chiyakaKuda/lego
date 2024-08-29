@@ -48,6 +48,7 @@ Partial Class frmUserManagement
         '
         'txtUserID
         '
+        Me.txtUserID.BorderRadius = 9
         Me.txtUserID.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtUserID.DefaultText = ""
         Me.txtUserID.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -55,8 +56,10 @@ Partial Class frmUserManagement
         Me.txtUserID.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txtUserID.DisabledState.Parent = Me.txtUserID
         Me.txtUserID.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
+        Me.txtUserID.Enabled = False
         Me.txtUserID.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtUserID.FocusedState.Parent = Me.txtUserID
+        Me.txtUserID.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtUserID.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtUserID.HoverState.Parent = Me.txtUserID
         Me.txtUserID.Location = New System.Drawing.Point(166, 81)
@@ -115,6 +118,7 @@ Partial Class frmUserManagement
         '
         'txtFullname
         '
+        Me.txtFullname.BorderRadius = 9
         Me.txtFullname.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtFullname.DefaultText = ""
         Me.txtFullname.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -124,6 +128,7 @@ Partial Class frmUserManagement
         Me.txtFullname.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txtFullname.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtFullname.FocusedState.Parent = Me.txtFullname
+        Me.txtFullname.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtFullname.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtFullname.HoverState.Parent = Me.txtFullname
         Me.txtFullname.Location = New System.Drawing.Point(166, 185)
@@ -171,15 +176,17 @@ Partial Class frmUserManagement
         'txtUsertype
         '
         Me.txtUsertype.BackColor = System.Drawing.Color.Transparent
+        Me.txtUsertype.BorderRadius = 9
         Me.txtUsertype.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed
         Me.txtUsertype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.txtUsertype.FocusedColor = System.Drawing.Color.Empty
         Me.txtUsertype.FocusedState.Parent = Me.txtUsertype
-        Me.txtUsertype.Font = New System.Drawing.Font("Segoe UI", 10.0!)
+        Me.txtUsertype.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtUsertype.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(112, Byte), Integer))
         Me.txtUsertype.FormattingEnabled = True
         Me.txtUsertype.HoverState.Parent = Me.txtUsertype
         Me.txtUsertype.ItemHeight = 30
+        Me.txtUsertype.Items.AddRange(New Object() {"Admin", "Clerk"})
         Me.txtUsertype.ItemsAppearance.Parent = Me.txtUsertype
         Me.txtUsertype.Location = New System.Drawing.Point(647, 170)
         Me.txtUsertype.Name = "txtUsertype"
@@ -189,6 +196,7 @@ Partial Class frmUserManagement
         '
         'txtAccessCode
         '
+        Me.txtAccessCode.BorderRadius = 9
         Me.txtAccessCode.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtAccessCode.DefaultText = ""
         Me.txtAccessCode.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -198,6 +206,7 @@ Partial Class frmUserManagement
         Me.txtAccessCode.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txtAccessCode.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtAccessCode.FocusedState.Parent = Me.txtAccessCode
+        Me.txtAccessCode.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtAccessCode.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtAccessCode.HoverState.Parent = Me.txtAccessCode
         Me.txtAccessCode.Location = New System.Drawing.Point(648, 247)
@@ -308,6 +317,7 @@ Partial Class frmUserManagement
         '
         'txtUsername
         '
+        Me.txtUsername.BorderRadius = 9
         Me.txtUsername.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtUsername.DefaultText = ""
         Me.txtUsername.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
@@ -317,6 +327,7 @@ Partial Class frmUserManagement
         Me.txtUsername.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
         Me.txtUsername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtUsername.FocusedState.Parent = Me.txtUsername
+        Me.txtUsername.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtUsername.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtUsername.HoverState.Parent = Me.txtUsername
         Me.txtUsername.Location = New System.Drawing.Point(647, 81)
@@ -342,7 +353,7 @@ Partial Class frmUserManagement
         Me.UserData.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
         DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
         DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
         DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
         DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
@@ -357,6 +368,7 @@ Partial Class frmUserManagement
         DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White
         DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
         Me.UserData.DefaultCellStyle = DataGridViewCellStyle3
+        Me.UserData.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
         Me.UserData.EnableHeadersVisualStyles = False
         Me.UserData.GridColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
         Me.UserData.Location = New System.Drawing.Point(3, 361)
@@ -376,7 +388,7 @@ Partial Class frmUserManagement
         Me.UserData.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
         Me.UserData.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.UserData.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.UserData.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        Me.UserData.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UserData.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
         Me.UserData.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
         Me.UserData.ThemeStyle.HeaderStyle.Height = 25
