@@ -22,9 +22,9 @@ Partial Class frmMainMenu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle19 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle20 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle21 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMainMenu))
         Me.FormSkin1 = New FlatUI.FormSkin()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -51,18 +51,21 @@ Partial Class frmMainMenu
         Me.Guna2DataGridView1 = New Guna.UI2.WinForms.Guna2DataGridView()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Guna2GradientPanel3 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Me.numStaff = New System.Windows.Forms.Label()
         Me.GunaButton3 = New Guna.UI.WinForms.GunaButton()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Guna2GradientPanel2 = New Guna.UI2.WinForms.Guna2GradientPanel()
+        Me.numPatients = New System.Windows.Forms.Label()
         Me.GunaButton4 = New Guna.UI.WinForms.GunaButton()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Guna2GradientPanel1 = New Guna.UI2.WinForms.Guna2GradientPanel()
-        Me.GunaButton5 = New Guna.UI.WinForms.GunaButton()
+        Me.numDocs = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.GunaButton12 = New Guna.UI.WinForms.GunaButton()
         Me.GunaButton11 = New Guna.UI.WinForms.GunaButton()
         Me.GunaButton10 = New Guna.UI.WinForms.GunaButton()
         Me.GunaButton9 = New Guna.UI.WinForms.GunaButton()
@@ -74,7 +77,6 @@ Partial Class frmMainMenu
         Me.GunaControlBox3 = New Guna.UI.WinForms.GunaControlBox()
         Me.GunaControlBox2 = New Guna.UI.WinForms.GunaControlBox()
         Me.GunaControlBox1 = New Guna.UI.WinForms.GunaControlBox()
-        Me.GunaButton12 = New Guna.UI.WinForms.GunaButton()
         Me.FormSkin1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         CType(Me.Guna2DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -361,30 +363,30 @@ Partial Class frmMainMenu
         '
         'Guna2DataGridView1
         '
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.White
-        Me.Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        DataGridViewCellStyle19.BackColor = System.Drawing.Color.White
+        Me.Guna2DataGridView1.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle19
         Me.Guna2DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
         Me.Guna2DataGridView1.BackgroundColor = System.Drawing.Color.White
         Me.Guna2DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.Guna2DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal
         Me.Guna2DataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        DataGridViewCellStyle20.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle20.BackColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle20.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        DataGridViewCellStyle20.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle20.SelectionBackColor = System.Drawing.SystemColors.Highlight
+        DataGridViewCellStyle20.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle20.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.Guna2DataGridView1.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle20
         Me.Guna2DataGridView1.ColumnHeadersHeight = 4
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Segoe UI", 12.0!)
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle3
+        DataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle21.BackColor = System.Drawing.Color.White
+        DataGridViewCellStyle21.Font = New System.Drawing.Font("Segoe UI", 12.0!)
+        DataGridViewCellStyle21.ForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle21.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
+        DataGridViewCellStyle21.SelectionForeColor = System.Drawing.Color.FromArgb(CType(CType(71, Byte), Integer), CType(CType(69, Byte), Integer), CType(CType(94, Byte), Integer))
+        DataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.Guna2DataGridView1.DefaultCellStyle = DataGridViewCellStyle21
         Me.Guna2DataGridView1.EnableHeadersVisualStyles = False
         Me.Guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(CType(CType(231, Byte), Integer), CType(CType(229, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Guna2DataGridView1.Location = New System.Drawing.Point(356, 340)
@@ -432,6 +434,7 @@ Partial Class frmMainMenu
         '
         Me.Guna2GradientPanel3.BackColor = System.Drawing.Color.Transparent
         Me.Guna2GradientPanel3.BorderRadius = 12
+        Me.Guna2GradientPanel3.Controls.Add(Me.numStaff)
         Me.Guna2GradientPanel3.Controls.Add(Me.GunaButton3)
         Me.Guna2GradientPanel3.Controls.Add(Me.PictureBox3)
         Me.Guna2GradientPanel3.Controls.Add(Me.Label3)
@@ -442,6 +445,17 @@ Partial Class frmMainMenu
         Me.Guna2GradientPanel3.ShadowDecoration.Parent = Me.Guna2GradientPanel3
         Me.Guna2GradientPanel3.Size = New System.Drawing.Size(374, 179)
         Me.Guna2GradientPanel3.TabIndex = 13
+        '
+        'numStaff
+        '
+        Me.numStaff.AutoSize = True
+        Me.numStaff.Font = New System.Drawing.Font("Century Gothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.numStaff.ForeColor = System.Drawing.Color.White
+        Me.numStaff.Location = New System.Drawing.Point(21, 139)
+        Me.numStaff.Name = "numStaff"
+        Me.numStaff.Size = New System.Drawing.Size(107, 28)
+        Me.numStaff.TabIndex = 28
+        Me.numStaff.Text = "Doctors "
         '
         'GunaButton3
         '
@@ -493,6 +507,7 @@ Partial Class frmMainMenu
         '
         Me.Guna2GradientPanel2.BackColor = System.Drawing.Color.Transparent
         Me.Guna2GradientPanel2.BorderRadius = 12
+        Me.Guna2GradientPanel2.Controls.Add(Me.numPatients)
         Me.Guna2GradientPanel2.Controls.Add(Me.GunaButton4)
         Me.Guna2GradientPanel2.Controls.Add(Me.PictureBox2)
         Me.Guna2GradientPanel2.Controls.Add(Me.Label2)
@@ -503,6 +518,17 @@ Partial Class frmMainMenu
         Me.Guna2GradientPanel2.ShadowDecoration.Parent = Me.Guna2GradientPanel2
         Me.Guna2GradientPanel2.Size = New System.Drawing.Size(374, 179)
         Me.Guna2GradientPanel2.TabIndex = 13
+        '
+        'numPatients
+        '
+        Me.numPatients.AutoSize = True
+        Me.numPatients.Font = New System.Drawing.Font("Century Gothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.numPatients.ForeColor = System.Drawing.Color.White
+        Me.numPatients.Location = New System.Drawing.Point(22, 139)
+        Me.numPatients.Name = "numPatients"
+        Me.numPatients.Size = New System.Drawing.Size(107, 28)
+        Me.numPatients.TabIndex = 27
+        Me.numPatients.Text = "Doctors "
         '
         'GunaButton4
         '
@@ -554,7 +580,7 @@ Partial Class frmMainMenu
         '
         Me.Guna2GradientPanel1.BackColor = System.Drawing.Color.Transparent
         Me.Guna2GradientPanel1.BorderRadius = 12
-        Me.Guna2GradientPanel1.Controls.Add(Me.GunaButton5)
+        Me.Guna2GradientPanel1.Controls.Add(Me.numDocs)
         Me.Guna2GradientPanel1.Controls.Add(Me.PictureBox1)
         Me.Guna2GradientPanel1.Controls.Add(Me.Label1)
         Me.Guna2GradientPanel1.FillColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
@@ -565,31 +591,16 @@ Partial Class frmMainMenu
         Me.Guna2GradientPanel1.Size = New System.Drawing.Size(374, 179)
         Me.Guna2GradientPanel1.TabIndex = 12
         '
-        'GunaButton5
+        'numDocs
         '
-        Me.GunaButton5.AnimationHoverSpeed = 0.07!
-        Me.GunaButton5.AnimationSpeed = 0.03!
-        Me.GunaButton5.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton5.BaseColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
-        Me.GunaButton5.BorderColor = System.Drawing.Color.Black
-        Me.GunaButton5.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton5.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton5.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton5.ForeColor = System.Drawing.Color.White
-        Me.GunaButton5.Image = Nothing
-        Me.GunaButton5.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton5.Location = New System.Drawing.Point(244, 140)
-        Me.GunaButton5.Name = "GunaButton5"
-        Me.GunaButton5.OnHoverBaseColor = System.Drawing.Color.Green
-        Me.GunaButton5.OnHoverBorderColor = System.Drawing.Color.Black
-        Me.GunaButton5.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton5.OnHoverImage = Nothing
-        Me.GunaButton5.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton5.Radius = 7
-        Me.GunaButton5.Size = New System.Drawing.Size(127, 33)
-        Me.GunaButton5.TabIndex = 25
-        Me.GunaButton5.Text = "View Doctors"
-        Me.GunaButton5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.numDocs.AutoSize = True
+        Me.numDocs.Font = New System.Drawing.Font("Century Gothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.numDocs.ForeColor = System.Drawing.Color.White
+        Me.numDocs.Location = New System.Drawing.Point(17, 139)
+        Me.numDocs.Name = "numDocs"
+        Me.numDocs.Size = New System.Drawing.Size(107, 28)
+        Me.numDocs.TabIndex = 26
+        Me.numDocs.Text = "Doctors "
         '
         'PictureBox1
         '
@@ -627,6 +638,30 @@ Partial Class frmMainMenu
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(330, 808)
         Me.Panel1.TabIndex = 11
+        '
+        'GunaButton12
+        '
+        Me.GunaButton12.AnimationHoverSpeed = 0.07!
+        Me.GunaButton12.AnimationSpeed = 0.03!
+        Me.GunaButton12.BaseColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
+        Me.GunaButton12.BorderColor = System.Drawing.Color.Black
+        Me.GunaButton12.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton12.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton12.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaButton12.ForeColor = System.Drawing.Color.White
+        Me.GunaButton12.Image = CType(resources.GetObject("GunaButton12.Image"), System.Drawing.Image)
+        Me.GunaButton12.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.GunaButton12.ImageSize = New System.Drawing.Size(50, 50)
+        Me.GunaButton12.Location = New System.Drawing.Point(4, 688)
+        Me.GunaButton12.Name = "GunaButton12"
+        Me.GunaButton12.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(151, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.GunaButton12.OnHoverBorderColor = System.Drawing.Color.Black
+        Me.GunaButton12.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaButton12.OnHoverImage = Nothing
+        Me.GunaButton12.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton12.Size = New System.Drawing.Size(323, 73)
+        Me.GunaButton12.TabIndex = 22
+        Me.GunaButton12.Text = "About "
         '
         'GunaButton11
         '
@@ -870,30 +905,6 @@ Partial Class frmMainMenu
         Me.GunaControlBox1.Size = New System.Drawing.Size(50, 54)
         Me.GunaControlBox1.TabIndex = 7
         '
-        'GunaButton12
-        '
-        Me.GunaButton12.AnimationHoverSpeed = 0.07!
-        Me.GunaButton12.AnimationSpeed = 0.03!
-        Me.GunaButton12.BaseColor = System.Drawing.Color.FromArgb(CType(CType(45, Byte), Integer), CType(CType(47, Byte), Integer), CType(CType(49, Byte), Integer))
-        Me.GunaButton12.BorderColor = System.Drawing.Color.Black
-        Me.GunaButton12.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton12.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton12.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton12.ForeColor = System.Drawing.Color.White
-        Me.GunaButton12.Image = CType(resources.GetObject("GunaButton12.Image"), System.Drawing.Image)
-        Me.GunaButton12.ImageAlign = System.Windows.Forms.HorizontalAlignment.Right
-        Me.GunaButton12.ImageSize = New System.Drawing.Size(50, 50)
-        Me.GunaButton12.Location = New System.Drawing.Point(4, 688)
-        Me.GunaButton12.Name = "GunaButton12"
-        Me.GunaButton12.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(151, Byte), Integer), CType(CType(143, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.GunaButton12.OnHoverBorderColor = System.Drawing.Color.Black
-        Me.GunaButton12.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton12.OnHoverImage = Nothing
-        Me.GunaButton12.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton12.Size = New System.Drawing.Size(323, 73)
-        Me.GunaButton12.TabIndex = 22
-        Me.GunaButton12.Text = "About "
-        '
         'frmMainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -943,7 +954,6 @@ Partial Class frmMainMenu
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents GunaButton3 As Guna.UI.WinForms.GunaButton
     Friend WithEvents GunaButton4 As Guna.UI.WinForms.GunaButton
-    Friend WithEvents GunaButton5 As Guna.UI.WinForms.GunaButton
     Friend WithEvents Label5 As Label
     Friend WithEvents Panel2 As Panel
     Friend WithEvents Label12 As Label
@@ -974,4 +984,7 @@ Partial Class frmMainMenu
     Friend WithEvents GunaButton6 As Guna.UI.WinForms.GunaButton
     Friend WithEvents GunaButton11 As Guna.UI.WinForms.GunaButton
     Friend WithEvents GunaButton12 As Guna.UI.WinForms.GunaButton
+    Friend WithEvents numStaff As Label
+    Friend WithEvents numPatients As Label
+    Friend WithEvents numDocs As Label
 End Class

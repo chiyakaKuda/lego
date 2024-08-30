@@ -202,12 +202,6 @@
     <Compile Include="frmAddStaff.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmDoctors.Designer.vb">
-      <DependentUpon>frmDoctors.vb</DependentUpon>
-    </Compile>
-    <Compile Include="frmDoctors.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="frmMainMenu.Designer.vb">
       <DependentUpon>frmMainMenu.vb</DependentUpon>
     </Compile>
@@ -305,9 +299,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAddStaff.resx">
       <DependentUpon>frmAddStaff.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmDoctors.resx">
-      <DependentUpon>frmDoctors.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMainMenu.resx">
       <DependentUpon>frmMainMenu.vb</DependentUpon>
