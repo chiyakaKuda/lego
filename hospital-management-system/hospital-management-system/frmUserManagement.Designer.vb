@@ -33,6 +33,7 @@ Partial Class frmUserManagement
         Me.Label4 = New System.Windows.Forms.Label()
         Me.txtFullname = New Guna.UI2.WinForms.Guna2TextBox()
         Me.FormSkin1 = New FlatUI.FormSkin()
+        Me.UserData = New Guna.UI.WinForms.GunaDataGridView()
         Me.txtUsertype = New Guna.UI2.WinForms.Guna2ComboBox()
         Me.txtAccessCode = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -41,7 +42,6 @@ Partial Class frmUserManagement
         Me.GunaControlBox3 = New Guna.UI.WinForms.GunaControlBox()
         Me.GunaControlBox2 = New Guna.UI.WinForms.GunaControlBox()
         Me.txtUsername = New Guna.UI2.WinForms.Guna2TextBox()
-        Me.UserData = New Guna.UI.WinForms.GunaDataGridView()
         Me.FormSkin1.SuspendLayout()
         CType(Me.UserData, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -172,6 +172,67 @@ Partial Class frmUserManagement
         Me.FormSkin1.Size = New System.Drawing.Size(1007, 619)
         Me.FormSkin1.TabIndex = 0
         Me.FormSkin1.Text = "User Management"
+        '
+        'UserData
+        '
+        Me.UserData.AllowUserToAddRows = False
+        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.White
+        Me.UserData.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
+        Me.UserData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
+        Me.UserData.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.UserData.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.UserData.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
+        Me.UserData.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
+        DataGridViewCellStyle2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
+        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
+        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
+        Me.UserData.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
+        Me.UserData.ColumnHeadersHeight = 25
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
+        DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        DataGridViewCellStyle3.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
+        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White
+        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
+        Me.UserData.DefaultCellStyle = DataGridViewCellStyle3
+        Me.UserData.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
+        Me.UserData.EnableHeadersVisualStyles = False
+        Me.UserData.GridColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.UserData.Location = New System.Drawing.Point(3, 361)
+        Me.UserData.Name = "UserData"
+        Me.UserData.RowHeadersVisible = False
+        Me.UserData.RowTemplate.Height = 28
+        Me.UserData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
+        Me.UserData.Size = New System.Drawing.Size(1001, 256)
+        Me.UserData.TabIndex = 203
+        Me.UserData.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna
+        Me.UserData.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.UserData.ThemeStyle.AlternatingRowsStyle.Font = Nothing
+        Me.UserData.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.White
+        Me.UserData.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty
+        Me.UserData.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty
+        Me.UserData.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.UserData.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.UserData.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.UserData.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
+        Me.UserData.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UserData.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
+        Me.UserData.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
+        Me.UserData.ThemeStyle.HeaderStyle.Height = 25
+        Me.UserData.ThemeStyle.ReadOnly = False
+        Me.UserData.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
+        Me.UserData.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
+        Me.UserData.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UserData.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White
+        Me.UserData.ThemeStyle.RowsStyle.Height = 28
+        Me.UserData.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
+        Me.UserData.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White
         '
         'txtUsertype
         '
@@ -339,67 +400,6 @@ Partial Class frmUserManagement
         Me.txtUsername.ShadowDecoration.Parent = Me.txtUsername
         Me.txtUsername.Size = New System.Drawing.Size(347, 36)
         Me.txtUsername.TabIndex = 7
-        '
-        'UserData
-        '
-        Me.UserData.AllowUserToAddRows = False
-        DataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
-        DataGridViewCellStyle1.ForeColor = System.Drawing.Color.White
-        Me.UserData.AlternatingRowsDefaultCellStyle = DataGridViewCellStyle1
-        Me.UserData.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill
-        Me.UserData.BackgroundColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
-        Me.UserData.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.UserData.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
-        Me.UserData.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
-        DataGridViewCellStyle2.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle2.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
-        DataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText
-        DataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.[True]
-        Me.UserData.ColumnHeadersDefaultCellStyle = DataGridViewCellStyle2
-        Me.UserData.ColumnHeadersHeight = 25
-        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft
-        DataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
-        DataGridViewCellStyle3.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        DataGridViewCellStyle3.ForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
-        DataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White
-        DataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.[False]
-        Me.UserData.DefaultCellStyle = DataGridViewCellStyle3
-        Me.UserData.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically
-        Me.UserData.EnableHeadersVisualStyles = False
-        Me.UserData.GridColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
-        Me.UserData.Location = New System.Drawing.Point(3, 361)
-        Me.UserData.Name = "UserData"
-        Me.UserData.RowHeadersVisible = False
-        Me.UserData.RowTemplate.Height = 28
-        Me.UserData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
-        Me.UserData.Size = New System.Drawing.Size(1001, 256)
-        Me.UserData.TabIndex = 203
-        Me.UserData.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna
-        Me.UserData.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
-        Me.UserData.ThemeStyle.AlternatingRowsStyle.Font = Nothing
-        Me.UserData.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.White
-        Me.UserData.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty
-        Me.UserData.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty
-        Me.UserData.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
-        Me.UserData.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
-        Me.UserData.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
-        Me.UserData.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None
-        Me.UserData.ThemeStyle.HeaderStyle.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UserData.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White
-        Me.UserData.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing
-        Me.UserData.ThemeStyle.HeaderStyle.Height = 25
-        Me.UserData.ThemeStyle.ReadOnly = False
-        Me.UserData.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.FromArgb(CType(CType(60, Byte), Integer), CType(CType(70, Byte), Integer), CType(CType(73, Byte), Integer))
-        Me.UserData.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None
-        Me.UserData.ThemeStyle.RowsStyle.Font = New System.Drawing.Font("Century Gothic", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UserData.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.White
-        Me.UserData.ThemeStyle.RowsStyle.Height = 28
-        Me.UserData.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(168, Byte), Integer), CType(CType(109, Byte), Integer))
-        Me.UserData.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.White
         '
         'frmUserManagement
         '

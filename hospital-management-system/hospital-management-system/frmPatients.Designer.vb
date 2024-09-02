@@ -201,9 +201,11 @@ Partial Class frmPatients
         Me.txtSearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtSearch.FocusedState.Parent = Me.txtSearch
         Me.txtSearch.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSearch.ForeColor = System.Drawing.Color.White
         Me.txtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtSearch.HoverState.Parent = Me.txtSearch
         Me.txtSearch.Location = New System.Drawing.Point(37, 237)
+        Me.txtSearch.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.txtSearch.Name = "txtSearch"
         Me.txtSearch.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtSearch.PlaceholderText = "Search ID, Name, Next of Kin,Phone Number"
@@ -393,6 +395,7 @@ Partial Class frmPatients
         Me.txtCurrentSta.FormattingEnabled = True
         Me.txtCurrentSta.HoverState.Parent = Me.txtCurrentSta
         Me.txtCurrentSta.ItemHeight = 30
+        Me.txtCurrentSta.Items.AddRange(New Object() {"Weak", "Normal", "Strong"})
         Me.txtCurrentSta.ItemsAppearance.Parent = Me.txtCurrentSta
         Me.txtCurrentSta.Location = New System.Drawing.Point(766, 137)
         Me.txtCurrentSta.Name = "txtCurrentSta"

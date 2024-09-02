@@ -84,4 +84,8 @@ Public Class frmUserManagement
             txtAccessCode.Focus()
         End If
     End Sub
+
+    Private Sub UserData_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles UserData.CellContentClick
+
+    End Sub
 End Class

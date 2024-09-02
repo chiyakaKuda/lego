@@ -145,4 +145,8 @@ Public Class frmMainMenu
     Private Sub GunaButton12_Click(sender As Object, e As EventArgs) Handles GunaButton12.Click
         frmAbout.ShowDialog()
     End Sub
+
+    Private Sub GunaButton2_Click(sender As Object, e As EventArgs) Handles GunaButton2.Click
+
+    End Sub
 End Class
