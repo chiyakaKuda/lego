@@ -60,4 +60,9 @@ Public Class frmAddStaff
     Private Sub frmAddStaff_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         GenerateID()
     End Sub
+
+    Private Sub btnUpdateDetails_Click(sender As Object, e As EventArgs) Handles btnUpdateDetails.Click
+        Me.Hide()
+        frmUpdateStaff.Show()
+    End Sub
 End Class

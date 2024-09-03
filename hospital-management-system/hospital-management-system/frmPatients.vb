@@ -134,4 +134,8 @@ Public Class frmPatients
 
         End Try
     End Sub
+
+    Private Sub PatientsData_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles PatientsData.CellContentClick
+
+    End Sub
 End Class
