@@ -10,14 +10,14 @@ Public Class frmPharmacyManagement
     End Sub
 
     Private Sub GunaButton4_Click(sender As Object, e As EventArgs) Handles GunaButton4.Click
-        FlatTabControl1.SelectedTab = FlatTabControl1.TabPages(2)
+
     End Sub
 
     Private Sub GunaButton15_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub GunaButton16_Click(sender As Object, e As EventArgs) Handles GunaButton16.Click
+    Private Sub GunaButton16_Click(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -70,7 +70,7 @@ Public Class frmPharmacyManagement
         If txtID.Text = "" Or txtName.Text = "" Or txtCategory.Text = "" Or txtPrice.Text = "" Then
             MessageBox.Show("Fill in empty fileds to add product", "Inventory Mnagement", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
         Else
-            Dim sql1 As String = "insert into tblInventory (ItemID,ItemName,Category,Price,Expirys)  values('" & txtID.Text & "' ,'" & txtName.Text & "','" & txtCategory.Text & "','" & txtPrice.Text & "','" & expery.Value & "')"
+            Dim sql1 As String = "insert into tblInventory (ItemID,ItemName,Category,Price,Expiry)  values('" & txtID.Text & "' ,'" & txtName.Text & "','" & txtCategory.Text & "','" & txtPrice.Text & "','" & expery.Value & "')"
             Dim con1 As New OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=hospital-records.mdb")
             Dim cmd1 As New OleDbCommand(sql1, con1)
             con1.Open()
@@ -109,5 +109,9 @@ Public Class frmPharmacyManagement
             InventoryData.DataSource = ds
             con.Close()
         End If
+    End Sub
+
+    Private Sub GunaButton10_Click(sender As Object, e As EventArgs) Handles GunaButton10.Click
+        MessageBox.Show("Our team of developers is still working on this part.")
     End Sub
 End Class
